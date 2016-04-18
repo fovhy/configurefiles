@@ -1,0 +1,1 @@
+cp -rf ~/.bash* ~/.vim/vimrc .
