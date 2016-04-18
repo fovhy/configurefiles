@@ -1,2 +1,2 @@
-cp -f ./.bash* ~/
-cp -f ./vimrc ~/.vim/vimrc
+cp -rf ./.bash* ~/
+cp -rf ./.vim/* ~/.vim/

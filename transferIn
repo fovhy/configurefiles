@@ -1,1 +1,2 @@
-cp -rf ~/.bash* ~/.vim/vimrc .
+cp -rf ~/.bash_profile ~/.bashrc ~/.bash_git .
+cp -rf ~/.vim/* ./.vim 

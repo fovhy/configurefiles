@@ -13,3 +13,5 @@ function lazygit() {
     git commit -a -m "$1"
     git push
 }
+
+source ~/.bash_git
