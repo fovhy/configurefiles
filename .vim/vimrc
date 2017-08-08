@@ -168,12 +168,12 @@ set cursorline
 filetype on
 filetype plugin indent on
 
-au BufReadPost,BufNewFile *.twig colorscheme koehler 
-au BufReadPost,BufNewFile *.css colorscheme slate
-au BufReadPost,BufNewFile *.js colorscheme slate2
-au BufReadPost,BufNewFile *.py colorscheme molokaiyo
-au BufReadPost,BufNewFile *.html colorscheme monokai
-au BufReadPost,BufNewFile *.java colorscheme monokai
+au BufReadPost,BufNewFile *.twig colorscheme blue 
+au BufReadPost,BufNewFile *.css colorscheme blue
+au BufReadPost,BufNewFile *.js colorscheme blue
+au BufReadPost,BufNewFile *.py colorscheme blue
+au BufReadPost,BufNewFile *.html colorscheme blue
+au BufReadPost,BufNewFile *.java colorscheme blue
 " au BufReadPost,BufNewFile *.php colorscheme monokai
 
 " Default line highlighting for unknown filetypes
