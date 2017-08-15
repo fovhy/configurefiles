@@ -1,1 +1,2 @@
 cp -rf ~/.vim/* ./.vim 
+cp -rf ~/.bash* ./
