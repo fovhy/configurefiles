@@ -141,3 +141,34 @@ function lazygit() {
 }
 
 source ~/.bash_git
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# >>> Added by cnchi installer
+BROWSER=/usr/bin/chromium
+EDITOR=/usr/bin/vim
+
+# nvm setup 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# >>> Added by cnchi installer
+BROWSER=/usr/bin/chromium
+EDITOR=/usr/bin/vim
+
+# nvm setup 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  
+# This loads nvm bash_completion
